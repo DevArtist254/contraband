@@ -1,0 +1,16 @@
+h2 {
+    font-family: Raleway;
+    font-size: 250px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 9px;
+    -webkit-text-stroke-color: #fff;
+
+    bottom: -150px;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+}

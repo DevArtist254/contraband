@@ -1,0 +1,65 @@
+.pText {
+    width: 360px;
+    font-family: Oswald;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.pText-2 {
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    margin-left: 16px;
+}
+
+.pText-3 {
+    width: 44px;
+    height: 58px;
+    font-family: Oswald;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+    &__cir {
+    width: 82px;
+    height: 82px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2.5px solid #fff;
+    border-radius: 100%
+    }
+}
+
+.line {
+    width: 87px;
+    height: 2px;
+    background: #FFF;
+    display: block;
+} 
+
+.page-nav {
+    margin-top: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding-top: 40px;
+}
+
+.kill-box {
+    position: absolute;
+    z-index: 10;
+}
+
+.mrgl {
+    margin-left: 87px;
+}
